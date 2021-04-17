@@ -8,10 +8,6 @@ Original file is located at
 """
 from requests_html import HTMLSession, AsyncHTMLSession
 
-async def surrender(response):
-    something = await response.html.render(scrolldown=1000, sleep=1)
-    return something
-
 url = 'https://sport.detik.com/'
 
 try:
