@@ -1,1 +1,1 @@
-request_html==0.3.4
+request_html==0.10.0
